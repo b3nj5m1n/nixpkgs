@@ -6853,6 +6853,8 @@ self: super: with self; {
 
   opencensus-context = callPackage ../development/python-modules/opencensus-context { };
 
+  opencontainers = callPackage ../development/python-modules/opencontainers { };
+
   opencv3 = toPythonModule (pkgs.opencv3.override {
     enablePython = true;
     pythonPackages = self;
@@ -7188,6 +7190,8 @@ self: super: with self; {
   pdoc3 = callPackage ../development/python-modules/pdoc3 { };
 
   peaqevcore = callPackage ../development/python-modules/peaqevcore { };
+
+  pegen = callPackage ../development/python-modules/pegen { };
 
   pebble = callPackage ../development/python-modules/pebble { };
 
